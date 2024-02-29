@@ -35,16 +35,7 @@ body {
 
 
 
-figcaption {
-	text-align: center;
-    display: inline-block;
-    padding: 5px 8px;
-    background-color: #d11212; /* Blue background color */
-    color: #fff; /* White text color */
-    border: 1px solid #d11212; /* Blue border */
-    border-radius: 4px; /* Rounded corners */
-    margin: 5px 5px; /* Add some spacing between figcaptions */
-}
+
 
 .back-button {
 	position: absolute;
@@ -65,29 +56,42 @@ figcaption {
 	border-radius: 4px;
 }
 
-.Game {
-    background-color: #d11212; /* Red background color */
+figcaption {
+	text-align: center;
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #d11212; /* Blue background color */
     color: #fff; /* White text color */
+    border: 1px solid #d11212; /* Blue border */
+    border-radius: 2px; /* Rounded corners */
+    margin: 0px 5px 15px 0px; /* Add some spacing between figcaptions */
+}
+
+figcaption:first-child {
+	padding-left: 0px;
+	margin-left: 0px;
+  }
+
+.Game {
+    background-color: rgba(233, 50, 50, 0.925); /* Red background color */
+    color: #000000; /* White text color */
     border-color: #d11212; /* Red border color */
   }
 
   /* Blue style */
   .Engine {
-    background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color */
+    background-color: rgba(23, 131, 255, 0.925); /* Blue background color */
+    color: #000000; /* White text color */
     border-color: #007bff; /* Blue border color */
   }
 
   /* Green style */
-  .Language {
-    background-color: #28a745; /* Green background color */
-    color: #fff; /* White text color */
+  .Language { 
+    background-color: rgba(3, 230, 105, 0.925); /* Green background color */
+    color: #000000; /* White text color */
     border-color: #28a745; /* Green border color */
   }
-figcaption:first-child {
-	padding-left: 0px;
-	margin-left: 0px;
-  }
+
 
 
 .button-container {
@@ -2663,9 +2667,9 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
-		width: 25%;
+		width: 20%;
 	}
 
 		#header > * {
@@ -2743,10 +2747,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
+		margin-left: 20%;
+		max-width: 100%;
 		padding: 8em 4em 4em 4em;
-		width: calc(100% - 25%);
+		width: calc(100% - 20%);
 	}
 
 		#main > section {
