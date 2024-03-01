@@ -56,41 +56,7 @@ body {
 	border-radius: 4px;
 }
 
-figcaption {
-	text-align: center;
-    display: inline-block;
-    padding: 5px 8px;
-    background-color: #d11212; /* Blue background color */
-    color: #fff; /* White text color */
-    border: 1px solid #d11212; /* Blue border */
-    border-radius: 2px; /* Rounded corners */
-    margin: 0px 5px 15px 0px; /* Add some spacing between figcaptions */
-}
 
-figcaption:first-child {
-	padding-left: 0px;
-	margin-left: 0px;
-  }
-
-.Game {
-    background-color: rgba(233, 50, 50, 0.925); /* Red background color */
-    color: #000000; /* White text color */
-    border-color: #d11212; /* Red border color */
-  }
-
-  /* Blue style */
-  .Engine {
-    background-color: rgba(23, 131, 255, 0.925); /* Blue background color */
-    color: #000000; /* White text color */
-    border-color: #007bff; /* Blue border color */
-  }
-
-  /* Green style */
-  .Language { 
-    background-color: rgba(3, 230, 105, 0.925); /* Green background color */
-    color: #000000; /* White text color */
-    border-color: #28a745; /* Green border color */
-  }
 
 
 
@@ -1860,6 +1826,42 @@ input, select, textarea {
 		font-size: 2em;
 	}
 
+	figcaption {
+		text-align: center;
+		display: inline-block;
+		padding: 5px 8px;
+		background-color: #d11212; /* Blue background color */
+		color: #fff; /* White text color */
+		border: 1px solid #d11212; /* Blue border */
+		border-radius: 2px; /* Rounded corners */
+		margin: 0px 5px 15px 0px; /* Add some spacing between figcaptions */
+	}
+	
+	figcaption:first-child {
+		padding-left: 0px;
+		margin-left: 0px;
+	  }
+	
+	.Game {
+		background-color: rgba(233, 50, 50, 0.925); /* Red background color */
+		color: #000000; /* White text color */
+		border-color: #d11212; /* Red border color */
+	  }
+	
+	  /* Blue style */
+	  .Engine {
+		background-color: rgba(23, 131, 255, 0.925); /* Blue background color */
+		color: #000000; /* White text color */
+		border-color: #007bff; /* Blue border color */
+	  }
+	
+	  /* Green style */
+	  .Language { 
+		background-color: rgba(3, 230, 105, 0.925); /* Green background color */
+		color: #000000; /* White text color */
+		border-color: #28a745; /* Green border color */
+	  }
+
 /* Form */
 
 	form {
@@ -2618,6 +2620,7 @@ input, select, textarea {
 		}
 
 /* Work Item */
+
 
 	.work-item {
 		margin: 0 0 2em 0;
