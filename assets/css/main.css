@@ -1831,11 +1831,11 @@ input, select, textarea {
 	figcaption {
 		text-align: center;
 		display: inline-block;
-		padding: 5px 8px;
+		padding: 0px 3px;
 		background-color: #d11212; /* Blue background color */
 		color: #fff; /* White text color */
 		border: 1px solid #d11212; /* Blue border */
-		border-radius: 2px; /* Rounded corners */
+		border-radius: 4px; /* Rounded corners */
 		margin: 0px 5px 15px 0px; /* Add some spacing between figcaptions */
 	}
 	
