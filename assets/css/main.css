@@ -1836,7 +1836,7 @@ input, select, textarea {
 		color: #fff; /* White text color */
 		border: 1px solid #d11212; /* Blue border */
 		border-radius: 4px; /* Rounded corners */
-		margin: 0px 5px 1px 0px; /* Add some spacing between figcaptions */
+		margin: 0px 5px 15px 0px; /* Add some spacing between figcaptions */
 	}
 	
 	figcaption:first-child {
