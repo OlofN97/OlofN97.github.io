@@ -33,18 +33,18 @@
 						<header class="major">
 							<h2>Detached</h2>
 						</header>
-						<p>Detached is a Co-op game where players as two robots, Deta and Ched, who has remoweable limbs. The limbs can be 
-							transferred, thrown and dropped by the players. Each players starts with a predetermined amount of limbs on each 
+						<p>Detached is a Co-op game where players as two robots, Deta and Ched, who have removable  limbs. The limbs can be 
+							transferred, thrown and dropped by the players. All players starts with a predetermined amount of limbs on each 
 							level and must complete puzzles using the limbs to progress.
 						</p>
 							<h2>Development</h2>
 							<p>
-								Detached was a group project between 6 people. We used an agile metodology with sprints two times a week. The core idea was first for the game
+								Detached was a group project between six people. We used an agile methodology with sprints two times a week. The core idea was first for the game
 								was agreed upon by all the members. 
 
-								The idea was first drawed upon simple sheets of papper which were used for game testing sessions. After tested the first prototpyw was made and 
+								The game design was first drawn on sheets of paper which were used for game testing sessions. After tested, the first prototype was made and 
 								game designs documents were written. Using this we started production on the actual game. We divided up areas of the game to each developer.
-								My area was networking and UI. My responsibilites included: 
+								My area was networking and UI. My responsibilities included: 
 								<ul class="labeled-icons">
 									<li>Syncing objects</li>
 									<li>Syncing players</li>
@@ -52,7 +52,7 @@
 									<li>Creating the Main menu, settings, etc.</li>
 								</ul>
 								We used <a href="https://assetstore.unity.com/packages/tools/network/mirror-129321">Mirror</a> as the network library and <a href="https://steamworks.github.io/">Steamworks</a> to be able to use steam to gain access to steams matchmaking.
-								My main task was to handle network ownership of the limbs. Since each limb could only belong to one player, each limb were a network object and had a registered owner. If the owner relinquished ownership by dropping or throwing a limb
+								My main task was to handle network ownership of the limbs. Since each limb could only belong to one player, each limb was a network object and had a registered owner. If the owner relinquished ownership by dropping or throwing a limb
 								then it had no registered owner and was up for grabs by either player.
 							</p>
 
